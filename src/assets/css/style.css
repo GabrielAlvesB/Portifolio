@@ -1,0 +1,16 @@
+:root{
+    --principal: #101728;
+    --titulos: #48bfe3;
+}
+
+.cor_de_fundo{
+    background-color: var(--principal) !important;
+}
+
+nav a{
+    color: var(--titulos) !important;
+}
+
+nav a:hover{
+    color: white !important;
+}
