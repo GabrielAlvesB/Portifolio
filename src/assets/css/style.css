@@ -62,3 +62,15 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 .titulo-sobre-mim{
     margin-bottom: 20px;
 }
+
+.teste{
+    color:white;
+}
+
+#skill{
+    margin: 50px;
+}
+
+.imagens-skill i{
+    margin: 40px;
+}
