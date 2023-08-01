@@ -54,16 +54,59 @@
 
     <section id="sobre-mim" class="d-flex flex-column titulo h-100">
       <div class="nome-area titulo-sobre-mim"><h1>Sobre mim</h1></div>
+
+      
       <div class="d-flex justify-content-around align-items-center">
+        
         <div class="d-flex align-items-end">
-          <button class="botao-arredondado">Clique Aqui</button>
+          <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Clique Aqui</button>
+          <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   aaaaaaaaaaa
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
+
         <div class="d-flex align-items-end">
-          <button class="botao-arredondado">Clique Aqui</button>
+          <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#modal-dois">Clique Aqui</button>
+            <!-- Modal -->
+            <div class="modal fade " id="modal-dois" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                   bbbbbbbbbbb
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Understood</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </section>
    </main>
+
+
    
    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
    <script src="./src/assets/js/index.js"></script>
