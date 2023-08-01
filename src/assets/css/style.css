@@ -20,7 +20,7 @@ nav a:hover{
 }
 
 .custom-menu {
-    height: calc(100vh - 86px);
+    height: calc(100vh - 57px);
   }
 
 .nome-area{
@@ -56,6 +56,9 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     cursor: pointer; /* Altera o cursor quando passa o mouse sobre o botão */
 
     background: rgb(128,255,219);
-    background: linear-gradient(98deg, rgba(128,255,219,0.6) 46%, rgba(116,0,184,0.5998774509803921) 57%);
-  }
+    background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
+}
   
+.titulo-sobre-mim{
+    margin-bottom: 20px;
+}
