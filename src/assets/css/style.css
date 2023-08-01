@@ -3,9 +3,12 @@
     --titulos: #48bfe3;
     --branco: #ffffff;
 }
-
 .cor_de_fundo{
     background-color: var(--principal) !important;
+}
+.titulo h1{
+    font-size: 45px;
+    text-align: center;
 }
 
 nav a{
@@ -38,3 +41,21 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     height: 350px;
     
 }
+.imagem-arredondada img {
+    overflow: hidden; /* Garante que a imagem fique dentro do contêiner arredondado */
+    border-radius: 20px; /* Define o raio de arredondamento para os cantos da imagem */
+}
+
+.botao-arredondado {
+    padding: 11px 40px; /* Adicione padding para melhor aparência */
+    border: none; /* Remova a borda padrão do botão */
+    border-radius: 20px; /* Define o raio de arredondamento das bordas */
+    /* background-color: #4CAF50; Cor de fundo do botão */
+    color: black; /* Cor do texto do botão */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Altera o cursor quando passa o mouse sobre o botão */
+
+    background: rgb(128,255,219);
+    background: linear-gradient(98deg, rgba(128,255,219,0.6) 46%, rgba(116,0,184,0.5998774509803921) 57%);
+  }
+  
