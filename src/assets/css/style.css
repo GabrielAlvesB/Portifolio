@@ -78,3 +78,63 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 .imagens-skill i:hover{
     cursor: pointer;
 }
+
+.fa-html5:hover{
+    color: #fcba03;
+    text-decoration: none;
+}
+
+.fa-css3-alt:hover{
+    color: #4287f5;
+    text-decoration: none;
+}
+
+.fa-js:hover{
+    color: #F0DB4F;
+    text-decoration: none;
+}
+
+.fa-bootstrap:hover{
+    color: #553C7B;
+    text-decoration: none;
+}
+
+.fa-git-alt:hover{
+    color: #f05033;
+    text-decoration: none;
+}
+
+.fa-database:hover{
+    color: #1787ad;
+    text-decoration: none;
+}
+
+.fa-linux:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.fa-windows:hover{
+    color: #00adef;
+    text-decoration: none;
+}
+
+.fa-terminal:hover{
+    color: #03ff10;
+    text-decoration: none;
+}
+
+#typing-text {
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  
+  .desenvolvedor {
+    font-size: 50px; /* Defina o tamanho de fonte adequado para o subtexto */
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+    overflow: hidden;
+    align-items: center;
+  }
