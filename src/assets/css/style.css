@@ -50,7 +50,6 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     padding: 11px 40px; /* Adicione padding para melhor aparência */
     border: none; /* Remova a borda padrão do botão */
     border-radius: 20px; /* Define o raio de arredondamento das bordas */
-    /* background-color: #4CAF50; Cor de fundo do botão */
     color: black; /* Cor do texto do botão */
     font-size: 16px; /* Tamanho da fonte */
     cursor: pointer; /* Altera o cursor quando passa o mouse sobre o botão */
@@ -77,4 +76,13 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 
 .imagens-skill i:hover{
     cursor: pointer;
+}
+
+/* Colocar as cores nos icones do skill */
+#peojetos{
+    height: 1545px;
+}
+
+.projeto1,.projeto2, .projeto3{
+    height: 500px;
 }
