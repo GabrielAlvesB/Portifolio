@@ -4,3 +4,9 @@ function addNome(){
 }
 
 addNome();
+
+function addname(){
+    let nome = document.querySelector('.logo2')
+    nome.innerHTML = "< G.A.B />"
+}
+addname();

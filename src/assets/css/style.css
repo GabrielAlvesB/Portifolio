@@ -11,6 +11,10 @@
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+}
+
 nav a{
     color: var(--titulos) !important;
 }
@@ -92,4 +96,35 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 }
 .para-mais-proj{
     height: 150px;
+}
+footer{
+  
+    height: 300px;
+}
+
+
+.flex-grow-1 a{
+    color: var(--titulos) !important;
+    font-size: 45px;
+
+}
+
+.flex-grow-1 a:hover{
+    color: var(--branco) !important;
+}
+
+.fale-comigo{
+    color: var(--titulos);
+}
+.telefone, .endereco, .contato-email{
+    color: var(--branco);
+}
+
+.fale-comigo , .telefone, .endereco, .contato-email{
+    margin: 15px;
+}
+
+
+.fa-linkedin, .fa-square-github, .fa-square-instagram{
+    margin: 10px;
 }
