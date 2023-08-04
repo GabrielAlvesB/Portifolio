@@ -10,6 +10,10 @@
     font-size: 45px;
     text-align: center;
 }
+.logo-imagem{
+    height: 30px;
+    width: 60px;
+}
 
 a{
     text-decoration: none;
@@ -17,10 +21,6 @@ a{
 
 nav a{
     color: var(--titulos) !important;
-}
-
-nav a:hover{
-    color: white !important;
 }
 
 .custom-menu {
@@ -190,7 +190,7 @@ footer{
 
 .logo-rodape a{
     color: var(--titulos) !important;
-    font-size: 45px;
+    font-size: 30px;
 
 }
 
