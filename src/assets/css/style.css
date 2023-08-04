@@ -66,8 +66,8 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     margin-bottom: 20px;
 }
 
-.teste{
-    color:white;
+.escrita{
+    color:var(--branco);
 }
 
 #skill{
@@ -82,7 +82,42 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     cursor: pointer;
 }
 
-/* Colocar as cores nos icones do skill */
+.fa-html5:hover{
+    color: #e95934;
+}
+
+.fa-css3-alt:hover{
+    color: #1672ad;
+}
+
+.fa-js:hover{
+    color: #db9a45;
+}
+
+.fa-bootstrap:hover{
+    color: #8412fb;
+}
+
+.fa-git-alt:hover{
+    color: #f05033;
+}
+
+.fa-database:hover{
+    color: #1787ad;
+}
+
+.fa-linux:hover{
+    color: #000000;
+}
+
+.fa-windows:hover{
+    color: #00adef;
+}
+
+.fa-terminal:hover{
+    color: #2bff00;
+}
+
 #peojetos{
     height: 1545px;
 }
@@ -125,6 +160,19 @@ footer{
 }
 
 
-.fa-linkedin, .fa-square-github, .fa-square-instagram{
-    margin: 10px;
+.fa-linkedin, .fa-github, .fa-instagram{
+    margin: 20px;
+    color: var(--branco);
+}
+
+.fa-linkedin:hover{
+    color: #0a66c2;
+}
+
+.fa-github:hover{
+    color: #6b698e;
+}
+
+.fa-instagram:hover{
+    color: #a741a4;
 }
