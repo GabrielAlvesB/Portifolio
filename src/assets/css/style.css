@@ -45,6 +45,28 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     height: 350px;
     
 }
+.color{
+    background-color: var(--principal);
+}
+.Custom-photo-projetos{
+    width: 650px;
+    height: 350px;
+}
+.Custom-photo-projetos-modal{
+    width: 200px;
+    height: 100px;
+}
+
+.teste{
+    width: 100px;
+}
+.resumo-logos i{
+    margin-right: 10px;
+}
+
+.resumo{
+    padding: 10px;
+}
 .imagem-arredondada img {
     overflow: hidden; /* Garante que a imagem fique dentro do contêiner arredondado */
     border-radius: 20px; /* Define o raio de arredondamento para os cantos da imagem */
@@ -60,6 +82,34 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 
     background: rgb(128,255,219);
     background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
+}
+
+.botao-arredondado-github{
+    border: none; /* Remova a borda padrão do botão */
+    border-radius: 20px; /* Define o raio de arredondamento das bordas */
+    color: black; /* Cor do texto do botão */
+    cursor: pointer; /* Altera o cursor quando passa o mouse sobre o botão */
+
+    background: rgb(128,255,219);
+    background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
+}
+
+.botao-arredondado-file{
+    padding: 11px 30px; /* Adicione padding para melhor aparência */
+    border: none; /* Remova a borda padrão do botão */
+    border-radius: 20px; /* Define o raio de arredondamento das bordas */
+    color: black; /* Cor do texto do botão */
+    cursor: pointer; /* Altera o cursor quando passa o mouse sobre o botão */
+
+    background: rgb(128,255,219);
+    background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
+}
+.botao-arredondado-file i{
+    color: var(--branco);
+}
+
+.arrendondar{
+    border-radius: 20px; /* Define o raio de arredondamento das bordas */
 }
   
 .titulo-sobre-mim{
