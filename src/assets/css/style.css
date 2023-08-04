@@ -138,21 +138,24 @@ footer{
 }
 
 
-.flex-grow-1 a{
+.logo-rodape a{
     color: var(--titulos) !important;
     font-size: 45px;
 
 }
 
-.flex-grow-1 a:hover{
+.logo-rodapea:hover{
     color: var(--branco) !important;
 }
 
 .fale-comigo{
     color: var(--titulos);
 }
-.telefone, .endereco, .contato-email{
+.telefone, .endereco, .contato-email a{
     color: var(--branco);
+}
+.email{
+    margin-top: 5px;
 }
 
 .fale-comigo , .telefone, .endereco, .contato-email{
