@@ -177,10 +177,11 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 }
 
 .git-projetos{
-    height: 600px;
+    height: 1000px;
 }
 .para-mais-proj{
     height: 150px;
+    color: var(--titulos);
 }
 footer{
   
@@ -233,4 +234,14 @@ footer{
     color: var(--branco);
     text-align: center;
     font-size: 15px;
+}
+
+.projetoPlus{
+    background: url(../img/Programador.png) no-repeat center center;
+    background-size:50%;
+}
+.Fundo-projetos{
+    width: 100%;
+    height: 1000px;
+    background-color: #10172870;
 }

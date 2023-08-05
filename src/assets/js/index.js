@@ -10,3 +10,6 @@ function addname(){
     nome.innerHTML = "< G.A.B />"
 }
 addname();
+
+//Colocar o baixador de pdf aqui
+//document.location.origin
