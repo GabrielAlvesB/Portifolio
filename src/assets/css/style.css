@@ -245,3 +245,58 @@ footer{
     height: 1000px;
     background-color: #10172870;
 }
+
+.menu-mobile{
+    background-color: var(--titulos);
+}
+
+@media only screen and (max-width: 576px){
+    .Custom-photo-projetos{
+        display: none;
+    }
+
+    .projeto1, .projeto2, .projeto3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .custom-menu{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .botao-imagem-principal{
+        display: none;
+    }
+
+    .mobile-rodape{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contato{
+     margin-left: 50px;
+    }
+
+    #Custom-photo{
+        width: 300px;
+        height: 250px;
+        
+    }
+
+    .imagens-skill i{
+        padding: 5px;
+        text-align: center;
+    }
+
+    .Fundo-projetos{
+        width: 100%;
+        height: 800px;
+    }
+
+
+    footer{
+  
+        height: 400px;
+    }
+}
