@@ -23,6 +23,9 @@ nav a{
     color: var(--titulos) !important;
 }
 
+.skill-Mobile{
+    display: none;
+}
 .custom-menu {
     height: calc(100vh - 57px);
   }
@@ -285,8 +288,8 @@ footer{
     }
 
     .imagens-skill i{
-        padding: 5px;
-        text-align: center;
+        margin: 0px;
+        padding: 25px;
     }
 
     .Fundo-projetos{
@@ -303,9 +306,19 @@ footer{
     #peojetos{
         height: 1545px;
     }
+    .skill-Mobile{
+        display: block;
+    }
+    .skill-desktop{
+        display: none;
+    }
+
+    #peojetos{
+        height: 1300px;
+    }
 }
 
-@media only screen and (max-width: 1279px){
+/* @media only screen and (max-width: 1279px){
     .Custom-photo-projetos{
         display: none;
     }
@@ -320,7 +333,7 @@ footer{
     }
 
     .imagens-skill i{
-        padding: 5px;
+        margin: 0px;
         text-align: center;
     }
 
@@ -343,4 +356,4 @@ footer{
     #peojetos{
         height: 1300px;
     }
-}
+} */
