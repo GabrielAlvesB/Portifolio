@@ -26,7 +26,16 @@ nav a{
 nav a:hover{
     color: var(--branco) !important;
 }
+.modal-hardware{
+    border: var(--branco) solid 2px;
+    padding: 10px;
+    text-align: center;
+    margin: 4px;
+}
 
+.escrita h4{
+    text-align: center;
+}
 
 .skill-Mobile{
     display: none;
