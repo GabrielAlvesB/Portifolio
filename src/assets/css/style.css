@@ -23,6 +23,11 @@ nav a{
     color: var(--titulos) !important;
 }
 
+nav a:hover{
+    color: var(--branco) !important;
+}
+
+
 .skill-Mobile{
     display: none;
 }
