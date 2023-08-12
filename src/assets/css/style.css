@@ -8,6 +8,9 @@
     font-family: 'MuseoModerno', cursive;
     font-family: 'Roboto', sans-serif;
 }
+button{
+    color: var(--branco) !important;
+}
 
 .cor_de_fundo{
     background-color: var(--principal) !important;
@@ -43,6 +46,9 @@ nav a:hover{
     padding: 10px;
     text-align: center;
     margin: 4px;
+}
+.modal-hardware p{
+    margin: 0;
 }
 
 .escrita h4{
