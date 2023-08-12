@@ -3,6 +3,12 @@
     --titulos: #48bfe3;
     --branco: #ffffff;
 }
+
+*{
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
 .cor_de_fundo{
     background-color: var(--principal) !important;
 }
@@ -13,6 +19,12 @@
 .logo-imagem{
     height: 30px;
     width: 60px;
+}
+
+.certificado img{
+    width: 350px;
+    height: 250px;
+    margin-top: 10px;
 }
 
 a{
@@ -329,6 +341,11 @@ footer{
 
     #peojetos{
         height: 1300px;
+    }
+    .certificado img{
+        width: 250px;
+        height: 150px;
+        margin-left: 14%;
     }
 }
 
