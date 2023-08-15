@@ -66,7 +66,7 @@ nav a:hover{
 .imagem-modal img{
     height: 150px;
     width: 300px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .skill-Mobile{
     display: none;
@@ -132,6 +132,7 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
 }
 
+
 .botao-arredondado-github{
     border: none; /* Remova a borda padrão do botão */
     border-radius: 20px; /* Define o raio de arredondamento das bordas */
@@ -152,6 +153,19 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     background: rgb(128,255,219);
     background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
 }
+
+.botao-arredondado:hover{
+    font-size: 19px;
+}
+
+.botao-arredondado-github:hover{
+    font-size: 19px;
+}
+/* 
+.botao-arredondado-file:hover{
+    font-size: 15px;
+} -------Ajustar depois animação*/
+
 .botao-arredondado-file i{
     color: var(--branco);
 }
