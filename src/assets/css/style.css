@@ -24,6 +24,10 @@ button{
     width: 60px;
 }
 
+.name{
+    color: var(--titulos) !important;
+}
+
 .certificado img{
     width: 350px;
     height: 250px;
@@ -309,8 +313,10 @@ footer{
         flex-direction: column;
     }
 
-    .contato{
-     margin-left: 50px;
+    
+    .contado-mobile{
+        display: flex;
+        justify-content: start !important;
     }
 
     #Custom-photo{
