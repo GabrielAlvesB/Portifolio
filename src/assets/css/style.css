@@ -18,6 +18,7 @@ button{
 .titulo h1{
     font-size: 45px;
     text-align: center;
+    color: var(--titulos);
 }
 .logo-imagem{
     height: 30px;
@@ -45,6 +46,8 @@ nav a{
 nav a:hover{
     color: var(--branco) !important;
     border-bottom: var(--titulos) solid 2px ;
+
+    /* transition: 0.3s ease-in-out; */
 }
 
 .modal-hardware{
@@ -76,10 +79,6 @@ nav a:hover{
 .custom-menu {
     height: calc(100vh - 57px);
   }
-
-.nome-area{
-    color: var(--branco);
-}
 
 .cor1{
     background-color: red;
@@ -198,38 +197,47 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 
 .fa-html5:hover{
     color: #e95934;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-css3-alt:hover{
     color: #1672ad;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-js:hover{
     color: #db9a45;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-bootstrap:hover{
     color: #8412fb;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-git-alt:hover{
     color: #f05033;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-database:hover{
     color: #1787ad;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-linux:hover{
     color: #000000;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-windows:hover{
     color: #00adef;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-terminal:hover{
     color: #2bff00;
+    transition: 0.3s ease-in-out;
 }
 
 #peojetos{
@@ -285,14 +293,17 @@ footer{
 
 .fa-linkedin:hover{
     color: #0a66c2;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-github:hover{
     color: #6b698e;
+    transition: 0.3s ease-in-out;
 }
 
 .fa-instagram:hover{
     color: #a741a4;
+    transition: 0.3s ease-in-out;
 }
 .direitos{
     color: var(--branco);
@@ -318,6 +329,9 @@ footer{
     background-color: var(--titulos);
 }
 
+.imagem-mobile{
+    display: none;
+}
 @media only screen and (max-width: 576px){
     .Custom-photo-projetos{
         display: none;
@@ -364,7 +378,6 @@ footer{
         height: 800px;
     }
 
-
     footer{
   
         height: 400px;
@@ -372,6 +385,9 @@ footer{
 
     #peojetos{
         height: 1545px;
+    }
+    .projetos-mobile{
+        margin-bottom: 25px;
     }
     .skill-Mobile{
         display: block;
