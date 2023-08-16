@@ -44,7 +44,9 @@ nav a{
 
 nav a:hover{
     color: var(--branco) !important;
+    border-bottom: var(--titulos) solid 2px ;
 }
+
 .modal-hardware{
     border: var(--branco) solid 2px;
     padding: 10px;
@@ -153,7 +155,7 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     background: rgb(128,255,219);
     background: linear-gradient(98deg, rgba(128,255,219,0.6) 0%, rgba(116,0,184,0.5998774509803921) 100%);
 }
-
+/*
 .botao-arredondado:hover{
     font-size: 19px;
 }
@@ -161,7 +163,7 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 .botao-arredondado-github:hover{
     font-size: 19px;
 }
-/* 
+
 .botao-arredondado-file:hover{
     font-size: 15px;
 } -------Ajustar depois animação*/
@@ -309,6 +311,10 @@ footer{
 }
 
 .menu-mobile{
+    background-color: var(--titulos);
+}
+
+.carrosel-botao{
     background-color: var(--titulos);
 }
 

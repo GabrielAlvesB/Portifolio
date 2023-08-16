@@ -33,9 +33,9 @@
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
 
-              <a class="nav-link p-2"href="#" data-bs-toggle="modal" data-bs-target="#Hardware"><i class="fa-solid fa-microchip fa-lg"></i> Hardware</a>
+              <!-- <a class="nav-link p-2"href="#" data-bs-toggle="modal" data-bs-target="#Hardware"><i class="fa-solid fa-microchip fa-lg"></i> Hardware</a> -->
               <!-- Modal Hardware-->
-              <div class="modal fade" id="Hardware" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <!-- <div class="modal fade" id="Hardware" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                   <div class="modal-content color">
                     <div class="modal-header justify-content-center">
@@ -69,7 +69,7 @@
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
               <!-- Final do modal de  Hardware -->
 
               <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
@@ -159,9 +159,9 @@
       <div class="w-100 d-flex flex-column  justify-content-center "> 
         <!-- Nome & Cargo & Botão -->
         <div class="d-flex flex-column nome-area titulo name">
-          <h1><strong>Gabriel Alves Batista</strong></h1> <br>
-          <h1><strong>Desenvolvedor</strong></h1>
-            <h1><strong>Front-end</strong></h1>
+          <h1>Gabriel Alves Batista</h1> <br>
+          <h1>Desenvolvedor</h1>
+            <h1>Front-end</h1>
         </div>
 
         <div class="d-flex justify-content-center">
@@ -310,16 +310,32 @@
                   <div class="modal-body">
                    <div class="texto-modal">
                     <p>O projeto MediCenter foi solicitado pelo professor <strong>Bonieky Lacerda</strong> do curso da <strong>B7Web</strong>, como forma de aprendizagem, no qual deveríamos replicar o layout de um site utilizando HTML e CSS com flex-box.</p>
-                    <h3>Mais imagem</h3>
-                    <div class="container text-center">
-                      <div class="row">
-                        <div class="col imagem-modal"><img src="./src/assets/img/Projetos/MediCenter/01.png" alt=""></div>
-                        <div class="col imagem-modal"><img src="./src/assets/img/Projetos/MediCenter/02.png" alt=""></div>
-                        <div class="col imagem-modal"><img src="./src/assets/img/Projetos/MediCenter/03.png" alt=""></div>
+
+                    <div id="carouselExample" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./src/assets/img/Projetos/MediCenter/01.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./src/assets/img/Projetos/MediCenter/02.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./src/assets/img/Projetos/MediCenter/03.png" class="d-block w-100" alt="...">
+                        </div>
                       </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon carrosel-botao" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon carrosel-botao" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
                     </div>
+
                    </div>
                   </div>
+
                   <div class="modal-footer">
                     <a href="https://gabrielalvesb.github.io/MediCenter/" target="_blank">
                       <button class="botao-arredondado-file"> <i class="fa-regular fa-file fa-lg"></i></button>
@@ -329,6 +345,7 @@
                     </a>
                     <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
                   </div>
+                
                 </div>
               </div>
             
@@ -387,13 +404,26 @@
                     <div class="modal-body">
                      <div>
                       <p>O KSB - Viagens demonstra a capacidade de desenvolver e criar um site responsivo, funcional e atraente, utilizando o framework Bootstrap como base. Além disso, esse projeto exemplifica a importância de aprender através da prática e da construção de projetos reais para aprimorar as habilidades de desenvolvimento web.</p>
-                      <h3>Mais imagem</h3>
-                      <div class="container text-center">
-                        <div class="row">
-                          <div class="col imagem-modal"><img src="./src/assets/img/Projetos/KSB/01.png" alt=""></div>
-                          <div class="col imagem-modal"><img src="./src/assets/img/Projetos/KSB/02.png" alt=""></div>
+
+                      <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="./src/assets/img/Projetos/KSB/01.png" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="./src/assets/img/Projetos/KSB/02.png" class="d-block w-100" alt="...">
+                          </div>
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon carrosel-botao" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                          <span class="carousel-control-next-icon carrosel-botao" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
                       </div>
+
                      </div>
                     </div>
                     <div class="modal-footer">
@@ -447,17 +477,38 @@
                       <div class="modal-body">
                        <div>
                         <p>O SelectCar foi um projeto da faculdade, realizado em parceria com o Felipe Bustamante, no qual desenvolvemos uma loja virtual de veículos utilizando HTML, CSS, JavaScript e Bootstrap. As informações sobre os carros, pessoas, valores e cidades foram disponibilizados de forma randômica.</p>
-                        <h3>Mais imagem</h3>
-                        <div class="container text-center">
-                          <div class="row">
-                            <div class="col imagem-modal"><img src="./src/assets/img/Projetos/selectCar/01.png" alt=""></div>
-                            <div class="col imagem-modal"><img src="./src/assets/img/Projetos/selectCar/02.png" alt=""></div>
-                            <div class="col imagem-modal"><img src="./src/assets/img/Projetos/selectCar/03.png" alt=""></div>
-                            <div class="col imagem-modal"><img src="./src/assets/img/Projetos/selectCar/04.png" alt=""></div>
-                            <div class="col imagem-modal"><img src="./src/assets/img/Projetos/selectCar/05.png" alt=""></div>
-                            <div class="col imagem-modal"><img src="./src/assets/img/Projetos/selectCar/06.png" alt=""></div>
+
+                        <div id="carouselExample" class="carousel slide">
+                          <div class="carousel-inner">
+                            <div class="carousel-item active">
+                              <img src="./src/assets/img/Projetos/selectCar/01.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./src/assets/img/Projetos/selectCar/02.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./src/assets/img/Projetos/selectCar/03.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./src/assets/img/Projetos/selectCar/04.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./src/assets/img/Projetos/selectCar/05.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                              <img src="./src/assets/img/Projetos/selectCar/06.png" class="d-block w-100" alt="...">
+                            </div>
                           </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon carrosel-botao" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon carrosel-botao" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
                         </div>
+
                        </div>
                       </div>
                       <div class="modal-footer">
