@@ -64,6 +64,11 @@ nav a:hover{
     text-align: center;
 }
 
+.curriculo{
+    width: 100%;
+    height: 100%;
+}
+
 .texto-modal{
     padding: 10px;
 }

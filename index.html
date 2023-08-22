@@ -78,13 +78,13 @@
                 
               <!-- Modal Curriculo-->
                 <div class="modal fade" id="Curriculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
+                  <div class="modal-dialog modal-lg">
                     <div class="modal-content color">
                       <div class="modal-header justify-content-center">
                         <h1 class="modal-title fs-5 escrita" id="exampleModalLabel"><strong>Curriculo</strong></h1>
                       </div>
                       <div class="modal-body escrita">
-                        ...
+                        <img src="./src/assets/img/Curriculo.jpg" alt="" class="curriculo">
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
@@ -189,7 +189,9 @@
         
         <div class="d-flex align-items-end">
           <!-- Modal do video -->
-          <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Video</button>
+          <!-- <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Video</button> -->
+          <button type="button" class="botao-arredondado" onclick="contrucao()">Video</button>
+
           <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog modal-xl">
