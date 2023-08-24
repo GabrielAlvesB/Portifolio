@@ -13,7 +13,7 @@ addname();
 
 
 function contrucao(){
-    alert("Sistema\nEssa categoria ainda esta sendo desenvolvida, sera disponibilizada na proxima atualização do site\n\nObrigado pela atenção de todos")
+    alert("Sistema\nEssa categoria ainda está sendo desenvolvida, será disponibilizada na próxima atualização do site.\n\nObrigado pela atenção de todos.")
 }
 
 //Colocar o baixador de pdf aqui
