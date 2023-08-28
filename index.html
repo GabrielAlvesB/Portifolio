@@ -7,6 +7,7 @@
     <!-- <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./src/assets/css/style.css">
+    <link rel="stylesheet" href="./src/assets/css/animacao.css">
     <link rel="shortcut icon" type="imagex/png" href="./src/assets/img/favicon-16x16.png">
 
     <link rel="apple-touch-icon" sizes="180x180" href="./src/assets/img/favicon/apple-touch-icon.png">
@@ -87,6 +88,16 @@
                         <img src="./src/assets/img/Curriculo.jpg" alt="" class="curriculo">
                       </div>
                       <div class="modal-footer">
+                        <div class="curriculo-dow">
+                          <a href="./src/assets/img/Curriculo.jpg" download>
+                            <button class="button">
+                              <span class="button-content">Download</span>
+                            </button>
+                          </a>
+                        </div>
+                     
+                        
+                        <!-- <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal"><a href="./src/assets/img/Curriculo.jpg" download></a></button> -->
                         <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
@@ -139,6 +150,13 @@
                           <div class="col-md-4 certificado"><img src="./src/assets/img/Certificados/figman-udemy.jpg" alt=""></div>
                           <div class="col-md-4 certificado"><img src="./src/assets/img/Certificados/desenvolvimento-web-udemy.jpg" alt=""></div>
                         </div>
+
+                        <!-- <div class="row">
+                          <div class="col-md-4 certificado"><img src="./src/assets/img/Certificados/netflix-dio.jpg" alt=""></div>
+                          <div class="col-md-4 certificado"><img src="./src/assets/img/Certificados/sql-udemy.jpg" alt=""></div>
+                          <div class="col-md-4 certificado"><img src="./src/assets/img/Certificados/jsnode-udemy.jpg" alt=""></div>
+                        </div> -->
+                        
                       </div>
                     </div>
                     <div class="modal-footer">
@@ -163,20 +181,35 @@
       <div class="w-100 d-flex flex-column  justify-content-center "> 
         <!-- Nome & Cargo & Botão -->
         <div class="d-flex flex-column nome-area titulo name">
-          <h1>Gabriel Alves Batista</h1> <br>
+          <div class="loader">
+            <div class="gabriel-mobile d-flex justify-content-center">
+              <div data-glitch="Gabriel A." class="glitch">Gabriel A.</div>
+
+            </div>
+            <div class="gabriel">
+              <div data-glitch="Gabriel Alves Batista" class="glitch">Gabriel Alves Batista</div>
+
+            </div>
+            <div class="d-flex justify-content-center">
+
+              <div data-glitch="Front end" class="glitch">Front end</div>
+            </div>
+         </div>
+          <!-- <h1>Gabriel Alves Batista</h1> <br>
           <h1>Desenvolvedor</h1>
-            <h1>Front-end</h1>
+            <h1>Front-end</h1> -->
         </div>
 
         <div class="d-flex justify-content-center">
-          <a href="#sobre-mim"><button class="botao-arredondado botao-imagem-principal">Clique Aqui</button></a>
+          <a href="#sobre-mim"><button class="botao-novo saiba-mais-botao">Clique Aqui</button></a>
+          <!-- <a href="#sobre-mim"><button class="botao-arredondado botao-imagem-principal">Clique Aqui</button></a> -->
         </div>  
       </div>
 
       <div class="escrita w-100 d-flex justify-content-center align-items-center">
         <!-- Imagem e gradiente -->
         <div class="gradiente imagem-arredondada"> 
-          <img id="Custom-photo" src="./src/assets/img/IMG_20230603_161452479_HDR.jpg" class="img-fluid" alt="imagem-fundo">
+          <img id="Custom-photo" src="./src/assets/img/Foto Perfil.png" class="img-fluid" alt="imagem-fundo">
         </div>
         
       </div>
@@ -194,8 +227,11 @@
         <div class="d-flex align-items-end">
           <!-- Modal do video -->
           <!-- <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Video</button> -->
-          <button type="button" class="botao-arredondado sobre-mim-botoes" onclick="contrucao()">Video</button>
+          <button type="button" class="botao-novo sobre-mim-botoes" onclick="contrucao()">Video</button>
+          <!-- <button type="button" class="botao-arredondado sobre-mim-botoes" onclick="contrucao()">Video</button> -->
 
+          
+          
           <!-- Modal -->
             <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog modal-xl">
@@ -218,7 +254,9 @@
 
         <div class="d-flex align-items-end">
           <!-- Modal do texto -->
-          <button type="button" class="botao-arredondado sobre-mim-botoes" data-bs-toggle="modal" data-bs-target="#modal-dois">Texto</button>
+          
+          <button type="button" class="botao-novo sobre-mim-botoes" data-bs-toggle="modal" data-bs-target="#modal-dois">Texto</button>
+          <!-- <button type="button" class="botao-arredondado sobre-mim-botoes" data-bs-toggle="modal" data-bs-target="#modal-dois">Texto</button> -->
             <!-- Modal -->
             <div class="modal fade " id="modal-dois" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg">
@@ -310,7 +348,7 @@
           
   
           <div class="d-flex justify-content-center">
-            <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#pppppppp" >Saiba Mais</button>
+            <button type="button" class="botao-novo" data-bs-toggle="modal" data-bs-target="#pppppppp" >Saiba Mais</button>
             <div class="modal fade" id="pppppppp" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
               <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content color">
@@ -367,7 +405,7 @@
         <div class="escrita w-100 d-flex justify-content-center align-items-center">
           <!-- Imagem e-->
           <div class="gradiente imagem-arredondada"> 
-            <img class="Custom-photo-projetos" src="./src/assets/img/Projetos/MediCenter/01.png" class="img-fluid" alt="imagem-fundo">
+            <img class="Custom-photo-projetos" src="./src/assets/img/Projetos/MediCenter/01-principal-medi.png" class="img-fluid" alt="imagem-fundo">
           </div>
           
         </div>
@@ -383,7 +421,7 @@
         <div class="escrita w-100 d-flex justify-content-center align-items-center">
           <!-- Imagem e-->
           <div class="gradiente imagem-arredondada"> 
-            <img class="Custom-photo-projetos" src="./src/assets/img/Projetos/KSB/01.png" class="img-fluid" alt="imagem-fundo">
+            <img class="Custom-photo-projetos" src="./src/assets/img/Projetos/KSB/01 - principal-ksb.png" class="img-fluid" alt="imagem-fundo">
           </div>
           
         </div>
@@ -405,7 +443,7 @@
             
     
             <div class="d-flex justify-content-center">
-              <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#KSB-Viagens" >Saiba Mais</button>
+              <button type="button" class="botao-novo" data-bs-toggle="modal" data-bs-target="#KSB-Viagens" >Saiba Mais</button>
               <div class="modal fade" id="KSB-Viagens" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg">
                   <div class="modal-content color">
@@ -478,7 +516,7 @@
               
       
               <div class="d-flex justify-content-center">
-                <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#SelectCar" >Saiba Mais</button>
+                <button type="button" class="botao-novo" data-bs-toggle="modal" data-bs-target="#SelectCar" >Saiba Mais</button>
                 <div class="modal fade" id="SelectCar" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                   <div class="modal-dialog modal-lg">
                     <div class="modal-content color">
@@ -538,7 +576,7 @@
             <div class="escrita w-100 d-flex justify-content-center align-items-center">
               <!-- Imagem e-->
               <div class="gradiente imagem-arredondada"> 
-                <img class="Custom-photo-projetos" src="./src/assets/img/Projetos/selectCar/01.png" class="img-fluid" alt="imagem-fundo">
+                <img class="Custom-photo-projetos" src="./src/assets/img/Projetos/selectCar/01-principal-sc.png" class="img-fluid" alt="imagem-fundo">
               </div>
               
             </div>
@@ -554,13 +592,19 @@
           <div class="nome-area titulo para-mais-proj"><h1><strong>Para mais projetos de Desenvolvidos</strong></h1></div><br><br><br>
           <div class="d-flex justify-content-center ">
             <a href="https://github.com/GabrielAlvesB?tab=repositories" target="_blank">
-              <button class="botao-arredondado"><i class="fa-brands fa-github fa-2xl"></i> GitHub</button>
+              <!-- <button class="botao-arredondado"><i class="fa-brands fa-github fa-2xl"></i> GitHub</button> -->
+
+              <button data-text="Awesome" class="button-git">
+                <span class="actual-text">&nbsp;GITHUB&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">&nbsp;GITHUB&nbsp;</span>
+              </button>
+
             </a>
           </div> 
         </div>
       </div>
     </section>
-   </main>
+   </main>aaaa
 
     <footer class="d-flex flex-column ">
       <div class="d-flex mobile-rodape">
@@ -574,7 +618,7 @@
             <div class="fale-comigo"><h1>Fale Comigo</h1></div>
   
             <div class="telefone"><p><i class="fa-solid fa-phone fa-xl"></i> (33) 99191-6117</p></div>
-            <div class="endereco"><p><i class="fa-solid fa-map fa-xl"></i> Caratinga - MG</p></div>
+            <div class="endereco"><p><i class="fa-solid fa-map fa-xl"></i> Vila Velha - ES</p></div>
             <div class="contato-email d-flex flex-column ">
               <div class="email">
                 <a href="mailto:gabeelalvestech@gmail.com" target="_blank"> <i class="fa-solid fa-square-envelope fa-xl"></i> gabeelalvestech@gmail.com</a>

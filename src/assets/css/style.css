@@ -4,6 +4,8 @@
     --branco: #ffffff;
 }
 
+/* botao-arredondado rmover do codigo */
+
 *{
     font-family: 'MuseoModerno', cursive;
     font-family: 'Roboto', sans-serif;
@@ -109,12 +111,9 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 }
 .Custom-photo-projetos{
     width: 650px;
-    height: 350px;
+    height: 279px;
 }
-.Custom-photo-projetos-modal{
-    width: 200px;
-    height: 100px;
-}
+
 
 .teste{
     width: 100px;
@@ -346,6 +345,51 @@ footer{
 .imagem-mobile{
     display: none;
 }
+
+.curriculo-dow a{
+    text-decoration: none;
+    border-bottom: none !important ;
+}
+
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+
 @media only screen and (max-width: 576px){
     .Custom-photo-projetos{
         display: none;
@@ -419,43 +463,3 @@ footer{
         margin-left: 14%;
     }
 }
-
-/* @media only screen and (max-width: 1279px){
-    .Custom-photo-projetos{
-        display: none;
-    }
-
-    .projeto1, .projeto2, .projeto3{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .botao-imagem-principal{
-        display: none;
-    }
-
-    .imagens-skill i{
-        margin: 0px;
-        text-align: center;
-    }
-
-    .Fundo-projetos{
-        width: 100%;
-        height: 800px;
-    }
-
-    
-    .imagens-skill i{
-        margin: 0;
-        padding: 30px;
-        text-align: center;
-    }
-
-    footer{
-  
-        height: 400px;
-    }
-    #peojetos{
-        height: 1300px;
-    }
-} */
