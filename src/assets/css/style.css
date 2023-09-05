@@ -32,9 +32,12 @@ button{
 }
 
 .certificado img{
-    width: 350px;
-    height: 250px;
-    margin-top: 10px;
+    width: auto;
+    height: 100%;
+}
+
+.certificado{
+    margin: 30px;
 }
 
 a{
@@ -54,7 +57,7 @@ nav a:hover{
     color: var(--branco) !important;
     border-bottom: var(--titulos) solid 2px ;
 
-    /* transition: 0.3s ease-in-out; */
+  
 }
 
 .modal-hardware{
@@ -458,8 +461,7 @@ footer{
         height: 1300px;
     }
     .certificado img{
-        width: 250px;
-        height: 150px;
-        margin-left: 14%;
+        width: 100%;
+        height: 100%;
     }
 }
