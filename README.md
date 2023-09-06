@@ -16,10 +16,10 @@ Link para o site <https://gabrielalvesb.github.io/Portifolio/>
 * rodapé Atualizado
 
 ## Próximas Melhorias
-* Video Sobre mim
-* Degradê atrás da foto de perfil
-* Melhorar o responsivo para mobile e tablets
+* Video Sobre mim.
+* Degradê atrás da foto de perfil.
+* Melhorar o responsivo para mobile e tablets.
 
 ## Conteúdos Novos
-1. Criar área de cargos já ocupados
-2. Passar a usar webpack 
+1. Criar área de cargos já ocupados.
+2. Passar a usar webpack.
