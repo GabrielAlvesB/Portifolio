@@ -186,13 +186,10 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 .arrendondar{
     border-radius: 20px; /* Define o raio de arredondamento das bordas */
 }
-  
-.titulo-sobre-mim{
-    margin-bottom: 20px;
-}
-.sobre-mim-botoes{
-    margin-left: 10px;
-    margin-right: 10px;
+
+#sobre-mim{
+    background-color: gold;
+    height: 400px;
 }
 
 .escrita{
@@ -200,11 +197,15 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 }
 
 #skill{
-    margin: 50px;
+    height: 300px;
 }
 
+.imagens-skill {
+    margin-top: 40px;
+}
 .imagens-skill i{
     margin: 40px;
+    
 }
 
 .imagens-skill i:hover{
@@ -257,9 +258,20 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 }
 
 #peojetos{
-    height: 1545px;
+    height: 1600px;
+    /* background-color: #2bff00; */
 }
 
+.principais-projetos, .myskill, .titulo-sobre-mim{
+    /* background-color: gold; */
+    height: 100px;
+    /* margin-bottom: 20px; */
+}
+
+.principais-projetos h1{
+    text-align: center;
+    font-family: '300';
+}
 .projeto1,.projeto2, .projeto3{
     height: 500px;
 }
@@ -464,4 +476,22 @@ footer{
         width: 100%;
         height: 100%;
     }
+}
+
+
+/* .titulo-projetos{
+    background-color: var(--titulos);
+    border-radius: 10px;
+    width: 50%;
+} */
+
+
+.titulo-projetos h1{
+    /* background-color: var(--titulos); */
+    background: rgb(244,65,165);
+    background: linear-gradient(90deg, rgba(244,65,165,1) 0%, rgba(3,169,244,1) 100%);
+    border-radius: 30px;
+    margin: 30px;
+    color: white;
+    font-family: '300';
 }
