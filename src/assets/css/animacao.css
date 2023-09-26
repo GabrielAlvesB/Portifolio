@@ -17,6 +17,7 @@
   }
   .saiba-mais-botao{
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   
   .botao-novo:hover {
@@ -157,7 +158,7 @@
 
   .card {
     position: relative;
-    width: 300px;
+    width: 100px;
     height: 200px;
     background-color: #101728;
     border-radius: 10px;
@@ -323,7 +324,7 @@
 
 
 
-
+/* Card dos certificados inicio */
 .card__content a{
   text-decoration: none !important;
   color: none !important;
@@ -393,6 +394,7 @@
   box-shadow: none;
 }
 
+/* Card dos certificados final */
 
 
 
@@ -408,7 +410,7 @@
 
 
 
-
+/* Titulos importantes no sitema inicio*/
 
 /* === removing default button style ===*/
 .button1 {
@@ -453,31 +455,11 @@
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color))
 }
+/* Titulos importantes no sitema Final*/
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Card sobre mim  inicio*/
 
 .cardteste {
   overflow: visible;
@@ -651,3 +633,76 @@
     transform: translateY(0px);
   }
 }
+
+.back-content img{
+  width: 300px;
+}
+/* Card sobre mim final */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* botão sobre social inicio*/
+
+
+.social-links,.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  background: #101728;
+  margin: 5px;
+  transition: 0.3s;
+  justify-content: center;
+}
+
+.social-btn svg {
+  height: 24px;
+  width: 24px;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 2px;
+}
+
+.social-btn:hover {
+  width: 190px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: 100px;
+}
+
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: white;
+}
+/* botão sobre social Final*/
