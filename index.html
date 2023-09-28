@@ -16,66 +16,52 @@
     <link rel="manifest" href="./src/assets/img/favicon/site.webmanifest">
 
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <title>Portifolio</title>
 </head>
 <body class=" cor_de_fundo container">
 
-   <header>
+   <header class="d-flex justify-content-center">
     <nav class="cor_de_fundo navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <img src="./src/assets/img/logoazul.png" class="logo-imagem"> <p class="navbar-brand logo p-2" href="#"></p>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon menu-mobile"></span>
-          </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+            </div>
+          </div>
+        </div>
+      </nav>
+   </header>
 
-              <!-- <a class="nav-link p-2"href="#" data-bs-toggle="modal" data-bs-target="#Hardware"><i class="fa-solid fa-microchip fa-lg"></i> Hardware</a> -->
-              <!-- Modal Hardware-->
-              <!-- <div class="modal fade" id="Hardware" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                  <div class="modal-content color">
-                    <div class="modal-header justify-content-center">
-                      <h1 class="modal-title fs-5 escrita" id="exampleModalLabel"><strong>Notebook Samsung</strong></h1>
-                    </div>
-                    <div class="modal-body escrita">
-                      <div class="modal-hardware">
-                        <h6><strong>Hardware</strong></h6>
-                        <p>Intel core I5 - 8th</p>
-                        <p>Placa de video - mx 110</p>
-                        <p>Ram - 8 Gigabyte</p>
-                        <p>HD 1 Terabyte</p>
-                      </div>
+   <main >
+    <section class="custom-menu d-flex justify-content-around">
+    
+      <div class="w-100 d-flex flex-column  justify-content-center "> 
+        <!-- Nome & Cargo & Botão -->
+        <div class="d-flex flex-column align-items-center">
+          <div class="loader">
+            <div class="gabriel-mobile d-flex justify-content-center">
+              <div data-glitch="Gabriel A." class="glitch">Gabriel A.</div>
 
-                      <div class="modal-hardware">
-                        <h6><strong>Telas</strong></h6>
-                        <p>Tela Embutida 1366 x 768 60,02 Hz</p>
-                        <p>Monitor Samsung 1600 x 900 60,02 Hz</p>
-                      </div>
-                    
-                      <div class="modal-hardware">
-                        <h6><strong>Os</strong></h6>
-                        <p>Linux</p>
-                        <p>Sistema: Pop!-OS 22.04 LTS</p>
-                      </div>
-                     
+            </div>
+            <div class="gabriel">
+              <div data-glitch="Gabriel Alves" class="glitch">Gabriel Alves</div>
 
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-              <!-- Final do modal de  Hardware -->
+            </div>
+            <div class="d-flex justify-content-center">
 
-              <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
-              <a class="nav-link p-2" href="#" data-bs-toggle="modal" data-bs-target="#Curriculo"><i class="fa-solid fa-file fa-lg"></i> Curriculo</a> <!--Fazer um modal-->
+              <div data-glitch="Front end" class="glitch">Front end</div>
+            </div>
+         </div>
+        </div>
+<!-- aqui krai -->
+        <div class="Botoes-decertificado-midia d-flex justify-content-center">
+          <div class="mobile d-flex justify-content-center">
+            <div class="certicado-fianl">
+              <a href="#"><button class="botao-novo saiba-mais-botao" data-bs-toggle="modal" data-bs-target="#Curriculo">Download CV</button></a>
                 
               <!-- Modal Curriculo-->
                 <div class="modal fade" id="Curriculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -95,9 +81,6 @@
                             </button>
                           </a>
                         </div>
-                     
-                        
-                        <!-- <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal"><a href="./src/assets/img/Curriculo.jpg" download></a></button> -->
                         <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
@@ -105,344 +88,26 @@
                 </div>
                 <!-- Final do modal de  Curriculo -->
 
+              
+            </div>
 
-              <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-                
-
-              <a class="nav-link p-2" href="#" data-bs-toggle="modal" data-bs-target="#Certificados"><i class="fa-solid fa-certificate fa-lg"></i> Certificados</a> <!--Fazer um modal-->
-
-
-                 <!-- Modal Certificados-->
-              <div class="modal fade" id="Certificados" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                  <div class="modal-content color">
-                    <div class="modal-header justify-content-center">
-                      <h1 class="modal-title fs-5 escrita" id="exampleModalLabel"><strong>Certificados</strong></h1>
-                    </div>
-                    <div class="modal-body escrita">
-                      <div class="container-fluid">
-
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/html-css-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">HTML5 e CSS3</p>
-                              <p class="card__description">Carga horária: 89 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/js-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">JavaScript</p>
-                              <p class="card__description">Carga horária: 77 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/bootstrap-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">bootstrap 4</p>
-                              <p class="card__description">Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!--  -->
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/Banco-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Banco de Dados</p>
-                              <p class="card__description">Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/git-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">GIT/GITHUB</p>
-                              <p class="card__description">Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados//docker-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Docker</p>
-                              <p class="card__description">Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        <!--  -->
-
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/TailwindCSS-b7.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">TailwindCSS</p>
-                              <p class="card__description">Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
-                              <a href="https://b7web.com.br/fullstack/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/git-dio.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">GIT | GITHUB</p>
-                              <p class="card__description">Carga horária: 5 Horas <br> Plataforma: Dio <br></p>
-                              <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2Fhome&state=3bc9027c-0c2f-42cc-88a8-560ac905bf74&response_mode=fragment&response_type=code&scope=openid&nonce=f8df1a34-1d15-477e-b773-859aeb153f01" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/html-dio.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">HTML5 e CSS3</p>
-                              <p class="card__description">Carga horária: 06 Horas <br> Plataforma: Dio<br></p>
-                              <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2Fhome&state=3bc9027c-0c2f-42cc-88a8-560ac905bf74&response_mode=fragment&response_type=code&scope=openid&nonce=f8df1a34-1d15-477e-b773-859aeb153f01" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <!--  -->
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/insta-dio.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Projeto instagram</p>
-                              <p class="card__description">Carga horária: 02 Horas <br> Plataforma: dio <br></p>
-                              <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2Fhome&state=3bc9027c-0c2f-42cc-88a8-560ac905bf74&response_mode=fragment&response_type=code&scope=openid&nonce=f8df1a34-1d15-477e-b773-859aeb153f01" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/js-dio.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">JavaScript</p>
-                              <p class="card__description">Carga horária: 02 Horas <br> Plataforma: Dio <br></p>
-                              <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2Fhome&state=3bc9027c-0c2f-42cc-88a8-560ac905bf74&response_mode=fragment&response_type=code&scope=openid&nonce=f8df1a34-1d15-477e-b773-859aeb153f01" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/logica-dio.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Logica de Programação</p>
-                              <p class="card__description">Carga horária: 04 Horas <br> Plataforma: Dio<br></p>
-                              <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2Fhome&state=3bc9027c-0c2f-42cc-88a8-560ac905bf74&response_mode=fragment&response_type=code&scope=openid&nonce=f8df1a34-1d15-477e-b773-859aeb153f01" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-
-                        <!--  -->
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/netflix-dio.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Projeto Netflix</p>
-                              <p class="card__description">Carga horária: 05 Horas <br> Plataforma: Dio<br></p>
-                              <a href="https://auth.dio.me/realms/master/protocol/openid-connect/auth?client_id=spa-core-client&redirect_uri=https%3A%2F%2Fweb.dio.me%2Fhome&state=3bc9027c-0c2f-42cc-88a8-560ac905bf74&response_mode=fragment&response_type=code&scope=openid&nonce=f8df1a34-1d15-477e-b773-859aeb153f01" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/sql-udemy.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">SQL</p>
-                              <p class="card__description">Carga horária: 17 Horas <br> Plataforma: Udemy <br>Professor: Matheus Battisti <br></p>
-                              <a href="https://www.udemy.com/course/sql-do-basico-ao-avancado-com-mysql-e-projeto/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/jsnode-udemy.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">JavaScript | NodeJs</p>
-                              <p class="card__description">Carga horária: 24 Horas <br> Plataforma: Udemy <br>Professor: Matheus Battisti<br></p>
-                              <a href="https://www.udemy.com/course/javascript-do-basico-ao-avancado-com-node-e-projetos/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-                        <!--  -->
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/figman-udemy.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Figma - UX UI Design</p>
-                              <p class="card__description">Carga horária: 06 Horas <br> Plataforma: Udemy <br>Professor: Andre Bernardes<br></p>
-                              <a href="https://www.udemy.com/course/curso-completo-de-figma/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/desenvolvimento-web-udemy.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Desenvolvimento Web</p>
-                              <p class="card__description">Carga horária: 115 Horas <br> Plataforma: Udemy <br>Professores: Jorge SantAna | Jamilton Damasceno <br></p>
-                              <a href="https://www.udemy.com/course/web-completo/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/desafio-js-udemy.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Desafio em JavaScript</p>
-                              <p class="card__description">Carga horária: 04 Horas <br> Plataforma: Udemy <br>Professor: Matheus Battisti<br></p>
-                              <a href="https://www.udemy.com/course/desafios-de-javascript-entrevistas-e-testes-tecnicos/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="row">
-                          <div class="card col-md-4 certificado">
-                            <img src="./src/assets/img/Certificados/inkscape-udemy.jpg" alt="">
-                            <div class="card__content d-flex flex-column justify-content-center">
-                              <p class="card__title">Inkscape - UX UI Design</p>
-                              <p class="card__description">Carga horária: 03 Horas <br> Plataforma: Udemy <br>Professor: Rafael Maia<br></p>
-                              <a href="https://www.udemy.com/course/aprenda-design-grafico-com-inkscape/" target="_blank">
-                                <button class="button-certificado">
-                                  Curso
-                                </button>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-
-                        
-                      </div>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
-                    </div>
-                  </div>
-                </div>
+            <div class="social-links">
+          
+          
+              <div id="linkedin" class="social-btn flex-center">
+                <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"></path></svg><span>@gabriel-alv..</span>
               </div>
-              <!-- Final do modal de  Certificados -->
-
-              <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
-
+          
+              <div id="github" class="social-btn flex-center">
+                <svg viewBox="0 0 24 24" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path></svg><span>@GabrielAlvesB</span>
             </div>
           </div>
-        </div>
-      </nav>
-   </header>
+          </div>
+        
 
-   <main >
-    <section class="custom-menu d-flex justify-content-around">
-    
-      <div class="w-100 d-flex flex-column  justify-content-center "> 
-        <!-- Nome & Cargo & Botão -->
-        <div class="d-flex flex-column nome-area titulo name">
-          <div class="loader">
-            <div class="gabriel-mobile d-flex justify-content-center">
-              <div data-glitch="Gabriel A." class="glitch">Gabriel A.</div>
+        </div> 
 
-            </div>
-            <div class="gabriel">
-              <div data-glitch="Gabriel Alves Batista" class="glitch">Gabriel Alves Batista</div>
 
-            </div>
-            <div class="d-flex justify-content-center">
-
-              <div data-glitch="Front end" class="glitch">Front end</div>
-            </div>
-         </div>
-          <!-- <h1>Gabriel Alves Batista</h1> <br>
-          <h1>Desenvolvedor</h1>
-            <h1>Front-end</h1> -->
-        </div>
-
-        <div class="d-flex justify-content-center">
-          <a href="#sobre-mim"><button class="botao-novo saiba-mais-botao">Clique Aqui</button></a>
-          <!-- <a href="#sobre-mim"><button class="botao-arredondado botao-imagem-principal">Clique Aqui</button></a> -->
-        </div>  
       </div>
 
       <div class="escrita w-100 d-flex justify-content-center align-items-center">
@@ -457,73 +122,181 @@
 
 
 
-    <section id="sobre-mim" class="d-flex flex-column titulo h-100">
-      <!-- Sobre Mim -->
-      <div class="nome-area titulo-sobre-mim"><h1>Sobre mim</h1></div>
-      
-      <div class="d-flex justify-content-center align-items-center">
-        
-        <div class="d-flex align-items-end">
-          <!-- Modal do video -->
-          <!-- <button type="button" class="botao-arredondado" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Video</button> -->
-          <button type="button" class="botao-novo sobre-mim-botoes" onclick="contrucao()">Video</button>
-          <!-- <button type="button" class="botao-arredondado sobre-mim-botoes" onclick="contrucao()">Video</button> -->
+    <section id="sobre-mim" class="d-flex flex-column titulo">
 
-          
-          
-          <!-- Modal -->
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog modal-xl">
-                <div class="modal-content color">
-                  <div class="modal-header justify-content-center">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Video</h1> 
+      <div class="myskill d-flex justify-content-center flex-column  align-items-center"> 
+        <span data-text="Awesome" class="button1">
+          <span class="actual-text">&nbsp;Sobre&nbsp;</span>
+          <span class="hover-text1" aria-hidden="true">&nbsp;Sobre&nbsp;</span>
+      </span>
+      </div>
+      <div class="cardsteste d-flex justify-content-around">
+        <div class="card1 ">
+            <div class="cardteste">
+              <div class="content">
+                <div class="back">
+                  <div class="back-content">
+                    <!-- <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff"> -->
+                      <img src="./src/assets/img/sobre-mim/apresentação.png" alt="">
+                    <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+            
+                    <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+            
+                    <g id="SVGRepo_iconCarrier">
+            
+                    <path d="M20.84375 0.03125C20.191406 0.0703125 19.652344 0.425781 19.21875 1.53125C18.988281 2.117188 18.5 3.558594 18.03125 4.9375C17.792969 5.636719 17.570313 6.273438 17.40625 6.75C17.390625 6.796875 17.414063 6.855469 17.40625 6.90625C17.398438 6.925781 17.351563 6.949219 17.34375 6.96875L17.25 7.25C18.566406 7.65625 19.539063 8.058594 19.625 8.09375C22.597656 9.21875 28.351563 11.847656 33.28125 16.78125C38.5 22 41.183594 28.265625 42.09375 30.71875C42.113281 30.761719 42.375 31.535156 42.75 32.84375C42.757813 32.839844 42.777344 32.847656 42.78125 32.84375C43.34375 32.664063 44.953125 32.09375 46.3125 31.625C47.109375 31.351563 47.808594 31.117188 48.15625 31C49.003906 30.714844 49.542969 30.292969 49.8125 29.6875C50.074219 29.109375 50.066406 28.429688 49.75 27.6875C49.605469 27.347656 49.441406 26.917969 49.25 26.4375C47.878906 23.007813 45.007813 15.882813 39.59375 10.46875C33.613281 4.484375 25.792969 1.210938 22.125 0.21875C21.648438 0.0898438 21.234375 0.0078125 20.84375 0.03125 Z M 16.46875 9.09375L0.0625 48.625C-0.09375 48.996094 -0.00390625 49.433594 0.28125 49.71875C0.472656 49.910156 0.738281 50 1 50C1.128906 50 1.253906 49.988281 1.375 49.9375L40.90625 33.59375C40.523438 32.242188 40.222656 31.449219 40.21875 31.4375C39.351563 29.089844 36.816406 23.128906 31.875 18.1875C27.035156 13.34375 21.167969 10.804688 18.875 9.9375C18.84375 9.925781 17.8125 9.5 16.46875 9.09375 Z M 17 16C19.761719 16 22 18.238281 22 21C22 23.761719 19.761719 26 17 26C15.140625 26 13.550781 24.972656 12.6875 23.46875L15.6875 16.1875C16.101563 16.074219 16.550781 16 17 16 Z M 31 22C32.65625 22 34 23.34375 34 25C34 25.917969 33.585938 26.730469 32.9375 27.28125L32.90625 27.28125C33.570313 27.996094 34 28.949219 34 30C34 32.210938 32.210938 34 30 34C27.789063 34 26 32.210938 26 30C26 28.359375 26.996094 26.960938 28.40625 26.34375L28.3125 26.3125C28.117188 25.917969 28 25.472656 28 25C28 23.34375 29.34375 22 31 22 Z M 21 32C23.210938 32 25 33.789063 25 36C25 36.855469 24.710938 37.660156 24.25 38.3125L20.3125 39.9375C18.429688 39.609375 17 37.976563 17 36C17 33.789063 18.789063 32 21 32 Z M 9 34C10.65625 34 12 35.34375 12 37C12 38.65625 10.65625 40 9 40C7.902344 40 6.960938 39.414063 6.4375 38.53125L8.25 34.09375C8.488281 34.03125 8.742188 34 9 34Z"></path>
+            
+                    </g>
+            
+                    </svg>
+                    <strong>Apresentação</strong>
                   </div>
-                  <div class="modal-body">
-                   aaaaaaaaaaa
+                </div>
+                <div class="front">
+                  
+                  <div class="img">
+                    <div class="circle">
+                    </div>
+                    <div class="circle" id="right">
+                    </div>
+                    <div class="circle" id="bottom">
+                    </div>
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            
+                  <div class="front-content">
+                    <small class="badge">Apresentação</small>
+                    <div class="description">
+                      <div class="title">
+                        <p class="title">
+                          <strong>Meu nome é Gabriel Alves Batista, sou um jovem Desenvolvedor Front-end com experiência em React.js, JavaScript, TypeScript, Bootstrap e Linux. Adoro criar componentes reutilizáveis e trabalhar em projetos com Metodologias Ágeis.</strong>
+                         
+                        </p>
+                        <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero" fill="#8412fb"><g transform="scale(8,8)"><path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path></g></g></svg>
+                      </div>
+                      <p class="card-footerteste">
+                        30 Mins &nbsp; | &nbsp; 1 Serving
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <!-- Final do modal de video -->
             </div>
+          
         </div>
+        <div class="card2">
+          <div class="cardteste">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <!-- <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff"> -->
 
-
-        <div class="d-flex align-items-end">
-          <!-- Modal do texto -->
+                    <img src="./src/assets/img/sobre-mim/minhas habilidades.png" alt="">
           
-          <button type="button" class="botao-novo sobre-mim-botoes" data-bs-toggle="modal" data-bs-target="#modal-dois">Texto</button>
-          <!-- <button type="button" class="botao-arredondado sobre-mim-botoes" data-bs-toggle="modal" data-bs-target="#modal-dois">Texto</button> -->
-            <!-- Modal -->
-            <div class="modal fade " id="modal-dois" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="modal-content color">
-                  <div class="modal-header justify-content-center">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                  <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+          
+                  <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+          
+                  <g id="SVGRepo_iconCarrier">
+          
+                  <path d="M20.84375 0.03125C20.191406 0.0703125 19.652344 0.425781 19.21875 1.53125C18.988281 2.117188 18.5 3.558594 18.03125 4.9375C17.792969 5.636719 17.570313 6.273438 17.40625 6.75C17.390625 6.796875 17.414063 6.855469 17.40625 6.90625C17.398438 6.925781 17.351563 6.949219 17.34375 6.96875L17.25 7.25C18.566406 7.65625 19.539063 8.058594 19.625 8.09375C22.597656 9.21875 28.351563 11.847656 33.28125 16.78125C38.5 22 41.183594 28.265625 42.09375 30.71875C42.113281 30.761719 42.375 31.535156 42.75 32.84375C42.757813 32.839844 42.777344 32.847656 42.78125 32.84375C43.34375 32.664063 44.953125 32.09375 46.3125 31.625C47.109375 31.351563 47.808594 31.117188 48.15625 31C49.003906 30.714844 49.542969 30.292969 49.8125 29.6875C50.074219 29.109375 50.066406 28.429688 49.75 27.6875C49.605469 27.347656 49.441406 26.917969 49.25 26.4375C47.878906 23.007813 45.007813 15.882813 39.59375 10.46875C33.613281 4.484375 25.792969 1.210938 22.125 0.21875C21.648438 0.0898438 21.234375 0.0078125 20.84375 0.03125 Z M 16.46875 9.09375L0.0625 48.625C-0.09375 48.996094 -0.00390625 49.433594 0.28125 49.71875C0.472656 49.910156 0.738281 50 1 50C1.128906 50 1.253906 49.988281 1.375 49.9375L40.90625 33.59375C40.523438 32.242188 40.222656 31.449219 40.21875 31.4375C39.351563 29.089844 36.816406 23.128906 31.875 18.1875C27.035156 13.34375 21.167969 10.804688 18.875 9.9375C18.84375 9.925781 17.8125 9.5 16.46875 9.09375 Z M 17 16C19.761719 16 22 18.238281 22 21C22 23.761719 19.761719 26 17 26C15.140625 26 13.550781 24.972656 12.6875 23.46875L15.6875 16.1875C16.101563 16.074219 16.550781 16 17 16 Z M 31 22C32.65625 22 34 23.34375 34 25C34 25.917969 33.585938 26.730469 32.9375 27.28125L32.90625 27.28125C33.570313 27.996094 34 28.949219 34 30C34 32.210938 32.210938 34 30 34C27.789063 34 26 32.210938 26 30C26 28.359375 26.996094 26.960938 28.40625 26.34375L28.3125 26.3125C28.117188 25.917969 28 25.472656 28 25C28 23.34375 29.34375 22 31 22 Z M 21 32C23.210938 32 25 33.789063 25 36C25 36.855469 24.710938 37.660156 24.25 38.3125L20.3125 39.9375C18.429688 39.609375 17 37.976563 17 36C17 33.789063 18.789063 32 21 32 Z M 9 34C10.65625 34 12 35.34375 12 37C12 38.65625 10.65625 40 9 40C7.902344 40 6.960938 39.414063 6.4375 38.53125L8.25 34.09375C8.488281 34.03125 8.742188 34 9 34Z"></path>
+          
+                  </g>
+          
+                  </svg>
+                  <strong>Minhas Habilidades</strong>
+                </div>
+              </div>
+              <div class="front">
+                
+                <div class="img">
+                  <div class="circle">
                   </div>
-                  <div class="modal-body escrita">
-                    Oi! Me chamo Gabriel Alves Batista e sou um jovem desenvolvedor web. <br>  
-                    Estou cursando Ciência da Computação na Rede de Ensino Estácio na modalidade EAD, e me especializando em programação Front End - onde utilizo muito HTML5, CSS3, JavaScript, Bootstrap e React. Adoro estar sintonizado com as novas tecnologias e desafios, no qual busco sempre solucionar da melhor forma possível. <br>                    
-                    Meus pontos fortes são a comunicação com a equipe, onde sei ouvir as dúvidas e me esforço para solucionar.Sou proativo e não me importo de passar os meus conhecimentos à colegas de trabalhos. Sou criativo e busco sempre utilizar as novas tecnologias do mercado para me auxiliar, estando em constante aprendizado. Sou apaixonado pela tecnologia e por tudo que ela pode nos oferecer. <br>                    
-                    Meu primeiro contato com tecnologia foi quando ainda tinha 8 anos de idade e tive acesso ao windows xp (particulamente meu sistema operacional preferido), mas atualmente, sou usuário linux. Utilizo um sistema baseado em Ubuntu, no qual foi uma mudança muito boa, pois me fez ter mais carinho por software open source.
+                  <div class="circle" id="right">
                   </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-danger arrendondar" data-bs-dismiss="modal">Close</button>
+                  <div class="circle" id="bottom">
+                  </div>
+                </div>
+          
+                <div class="front-content">
+                  <small class="badge">Minhas Habilidades</small>
+                  <div class="description">
+                    <div class="title">
+                      <p class="title">
+                        <strong>Sou bom na comunicação com a equipe, atento às dúvidas e disposto a ajudar. Sou proativo ao compartilhar meu conhecimento com colegas, criativo ao adotar novas tecnologias e apaixonado por tudo que a tecnologia tem a oferecer.</strong>
+                      </p>
+                      <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero" fill="#8412fb"><g transform="scale(8,8)"><path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path></g></g></svg>
+                    </div>
+                    <p class="card-footerteste">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Final do modal de texto -->
+          </div>
+        </div>
+        <div class="card3">
+          <div class="cardteste">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <!-- <svg stroke="#ffffff" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" height="50px" width="50px" fill="#ffffff"> -->
+
+                    <img src="./src/assets/img/sobre-mim/trajetória.png" alt="">
+          
+                  <g stroke-width="0" id="SVGRepo_bgCarrier"></g>
+          
+                  <g stroke-linejoin="round" stroke-linecap="round" id="SVGRepo_tracerCarrier"></g>
+          
+                  <g id="SVGRepo_iconCarrier">
+          
+                  <path d="M20.84375 0.03125C20.191406 0.0703125 19.652344 0.425781 19.21875 1.53125C18.988281 2.117188 18.5 3.558594 18.03125 4.9375C17.792969 5.636719 17.570313 6.273438 17.40625 6.75C17.390625 6.796875 17.414063 6.855469 17.40625 6.90625C17.398438 6.925781 17.351563 6.949219 17.34375 6.96875L17.25 7.25C18.566406 7.65625 19.539063 8.058594 19.625 8.09375C22.597656 9.21875 28.351563 11.847656 33.28125 16.78125C38.5 22 41.183594 28.265625 42.09375 30.71875C42.113281 30.761719 42.375 31.535156 42.75 32.84375C42.757813 32.839844 42.777344 32.847656 42.78125 32.84375C43.34375 32.664063 44.953125 32.09375 46.3125 31.625C47.109375 31.351563 47.808594 31.117188 48.15625 31C49.003906 30.714844 49.542969 30.292969 49.8125 29.6875C50.074219 29.109375 50.066406 28.429688 49.75 27.6875C49.605469 27.347656 49.441406 26.917969 49.25 26.4375C47.878906 23.007813 45.007813 15.882813 39.59375 10.46875C33.613281 4.484375 25.792969 1.210938 22.125 0.21875C21.648438 0.0898438 21.234375 0.0078125 20.84375 0.03125 Z M 16.46875 9.09375L0.0625 48.625C-0.09375 48.996094 -0.00390625 49.433594 0.28125 49.71875C0.472656 49.910156 0.738281 50 1 50C1.128906 50 1.253906 49.988281 1.375 49.9375L40.90625 33.59375C40.523438 32.242188 40.222656 31.449219 40.21875 31.4375C39.351563 29.089844 36.816406 23.128906 31.875 18.1875C27.035156 13.34375 21.167969 10.804688 18.875 9.9375C18.84375 9.925781 17.8125 9.5 16.46875 9.09375 Z M 17 16C19.761719 16 22 18.238281 22 21C22 23.761719 19.761719 26 17 26C15.140625 26 13.550781 24.972656 12.6875 23.46875L15.6875 16.1875C16.101563 16.074219 16.550781 16 17 16 Z M 31 22C32.65625 22 34 23.34375 34 25C34 25.917969 33.585938 26.730469 32.9375 27.28125L32.90625 27.28125C33.570313 27.996094 34 28.949219 34 30C34 32.210938 32.210938 34 30 34C27.789063 34 26 32.210938 26 30C26 28.359375 26.996094 26.960938 28.40625 26.34375L28.3125 26.3125C28.117188 25.917969 28 25.472656 28 25C28 23.34375 29.34375 22 31 22 Z M 21 32C23.210938 32 25 33.789063 25 36C25 36.855469 24.710938 37.660156 24.25 38.3125L20.3125 39.9375C18.429688 39.609375 17 37.976563 17 36C17 33.789063 18.789063 32 21 32 Z M 9 34C10.65625 34 12 35.34375 12 37C12 38.65625 10.65625 40 9 40C7.902344 40 6.960938 39.414063 6.4375 38.53125L8.25 34.09375C8.488281 34.03125 8.742188 34 9 34Z"></path>
+          
+                  </g>
+          
+                  </svg>
+                  <strong>Trajetória Tecnológica</strong>
+                </div>
+              </div>
+              <div class="front">
+                
+                <div class="img">
+                  <div class="circle">
+                  </div>
+                  <div class="circle" id="right">
+                  </div>
+                  <div class="circle" id="bottom">
+                  </div>
+                </div>
+          
+                <div class="front-content">
+                  <small class="badge">Trajetória Tecnológica</small>
+                  <div class="description">
+                    <div class="title">
+                      <p class="title">
+                        <Strong>Meu primeiro contato com tecnologia foi aos 8 anos, com o Windows XP (meu sistema favorito). Hoje, sou usuário de Linux, especialmente o Ubuntu, que me fez valorizar o software de código aberto.</Strong>
+                      </p>
+                      <svg fill-rule="nonzero" height="15px" width="15px" viewBox="0,0,256,256" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g style="mix-blend-mode: normal" text-anchor="none" font-size="none" font-weight="none" font-family="none" stroke-dashoffset="0" stroke-dasharray="" stroke-miterlimit="10" stroke-linejoin="miter" stroke-linecap="butt" stroke-width="1" stroke="none" fill-rule="nonzero" fill="#8412fb"><g transform="scale(8,8)"><path d="M25,27l-9,-6.75l-9,6.75v-23h18z"></path></g></g></svg>
+                    </div>
+                    <p class="card-footerteste">
+                      30 Mins &nbsp; | &nbsp; 1 Serving
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="skill" class="d-flex flex-column titulo align-items-center escrita">
+    <section id="skill" class="d-flex flex-column  align-items-center escrita justify-content-center">
       <!-- Area das Skill -->
-      <div>
-        <h1>Skill</h1>
+      <div class="myskill d-flex justify-content-center flex-column  align-items-center"> 
+        <span data-text="Awesome" class="button1">
+          <span class="actual-text">&nbsp;skill&nbsp;</span>
+          <span class="hover-text1" aria-hidden="true">&nbsp;skill&nbsp;</span>
+      </span>
       </div>
 
       <div class="grid imagens-skill">
@@ -550,14 +323,9 @@
             <i class="fa-solid fa-database fa-2xl"></i>
             <i class="fa-brands fa-linux fa-2xl"></i>
               <i class="fa-brands fa-windows fa-2xl"></i>
-              <i class="fa-sharp fa-solid fa-terminal fa-2xl"></i></div>
+              <i class="fa-sharp fa-solid fa-terminal fa-2xl"></i>
             </div>
-            <div class="g-col-1 ">
-           
             </div>
-            <div class="g-col-1 ">
-            
-          </div>
         </div>
 
         
@@ -567,17 +335,25 @@
     </section>
 
     <section id="peojetos">
-      <div class="titulo escrita"> <h1>Principais Projetos</h1></div>
+      <div class="principais-projetos d-flex justify-content-center flex-column  align-items-center"> 
+        <span data-text="Awesome" class="button1">
+          <span class="actual-text">&nbsp;Projetos&nbsp;</span>
+          <span class="hover-text1" aria-hidden="true">&nbsp;Projetos&nbsp;</span>
+      </span>
+
+      </div>
       <!-- -------------------------------------------------------------------------------------------------------------------------- -->
       <div class="projeto1 escrita d-flex">
       <!-- Primeiro Projeto -->
         <div class="w-100 d-flex flex-column  justify-content-center "> 
           <!-- Nome & Cargo & Botão -->
           <div class="d-flex flex-column titulo">
-            <h1>MediCenter</h1>
+            <div class="titulo-projetos ">
+              <h1>MediCenter</h1>
+            </div>
 
             <div class="resumo">
-              <p>MediCenter e um projeto feito em base de um layout já pronto fornecido pelo professor <strong>Bonieky Lacerda</strong>, no curos de <strong>HTML5 & CSS3</strong> onde tinhamos que praticar os conhecimentos adquiridos no curso, sem a utiização de frameworks apenas HTML e CSS puro, o site todo feito em Flex-box.</p>
+              <p>MediCenter e um projeto feito em base de um layout já pronto fornecido pelo professor <strong class="negritoedit">Bonieky Lacerda</strong>, no curos de <strong class="negritoedit">HTML5 & CSS3</strong> onde tinhamos que praticar os conhecimentos adquiridos no curso, sem a utiização de frameworks apenas HTML e CSS puro, o site todo feito em Flex-box.</p>
               <div class="resumo-logos">
                 <i class="fa-brands fa-html5 fa-xl"></i>
                 <i class="fa-brands fa-css3-alt fa-xl"></i>
@@ -597,7 +373,7 @@
                   
                   <div class="modal-body">
                    <div class="texto-modal">
-                    <p>O projeto MediCenter foi solicitado pelo professor <strong>Bonieky Lacerda</strong> do curso da <strong>B7Web</strong>, como forma de aprendizagem, no qual deveríamos replicar o layout de um site utilizando HTML e CSS com flex-box.</p>
+                    <p>O projeto MediCenter foi solicitado pelo professor <strong class="negritoedit">Bonieky Lacerda</strong> do curso da <strong class="negritoedit">B7Web</strong>, como forma de aprendizagem, no qual deveríamos replicar o layout de um site utilizando HTML e CSS com flex-box.</p>
 
                     <div id="med" class="carousel slide">
                       <div class="carousel-inner">
@@ -669,9 +445,11 @@
             <!-- Nome & Cargo & Botão -->
             
             <div class="d-flex flex-column nome-area titulo">
-              <h1>KSB-Viagens</h1>
+              <div class="titulo-projetos">
+                <h1>KSB-Viagens</h1>
+              </div>
               <div class="resumo ">
-                <p>O projeto KSB - Viagens foi desenvolvido com o objetivo principal de aprimorar as habilidades em desenvolvimento web utilizando o <strong>framework Bootstrap</strong>. Para isso, foi utilizado um layout de referência disponibilizado no canal da DevMedia no YouTube.</p>
+                <p>O projeto KSB - Viagens foi desenvolvido com o objetivo principal de aprimorar as habilidades em desenvolvimento web utilizando o <strong class="negritoedit">framework Bootstrap</strong>. Para isso, foi utilizado um layout de referência disponibilizado no canal da DevMedia no YouTube.</p>
                 <div class="resumo-logos">
                   <i class="fa-brands fa-html5 fa-xl"></i>
                   <i class="fa-brands fa-css3-alt fa-xl"></i>
@@ -741,9 +519,12 @@
             <div class="w-100 d-flex flex-column  justify-content-center "> 
               <!-- Nome & Cargo & Botão -->
               <div class="d-flex flex-column nome-area titulo">
-                <h1>SelectCar</h1>
+                <div class="titulo-projetos">
+                  <h1>SelectCar</h1>
+                </div>
+                
                 <div class="resumo">
-                  <p>SelectCar é uma loja virtual de veículos que foi desenvolvida de forma que o usuário pudesse filtrar as informações do veículo desejado, como: <strong>cidade onde o veículo está,  o ano e quantos quilometros o carro desejado rodou até o momento</strong>.</p>
+                  <p>SelectCar é uma loja virtual de veículos que foi desenvolvida de forma que o usuário pudesse filtrar as informações do veículo desejado, como: <strong class="negritoedit">cidade onde o veículo está,  o ano e quantos quilometros o carro desejado rodou até o momento</strong>.</p>
                   <div class="resumo-logos">
                     <i class="fa-brands fa-html5 fa-xl"></i>
                     <i class="fa-brands fa-css3-alt fa-xl"></i>
@@ -764,7 +545,7 @@
                       </div>
                       <div class="modal-body">
                        <div>
-                        <p>O SelectCar foi um projeto da faculdade, realizado em parceria com o Felipe Bustamante, no qual desenvolvemos uma loja virtual de veículos utilizando HTML, CSS, JavaScript e Bootstrap. As informações sobre os carros, pessoas, valores e cidades foram disponibilizados de forma randômica.</p>
+                        <p>O SelectCar foi um projeto da faculdade, realizado em parceria com o Felipe Bustamante, no qual desenvolvemos uma loja virtual de veículos utilizando HTML, CSS, JavaScript e Bootstrap. As informações sobre os carros, pessoas, <strong class="negritoedit">valores e cidades foram disponibilizados de forma randômica.</strong></p>
 
                         <div id="select" class="carousel slide">
                           <div class="carousel-inner">
@@ -843,6 +624,203 @@
         </div>
       </div>
     </section>
+
+
+    <section id="certificadosfinal" class="d-flex flex-column  align-items-center">
+
+      <div class="myCertificados d-flex justify-content-center flex-column  align-items-center"> 
+        <span data-text="Awesome" class="button1">
+          <span class="actual-text">&nbsp;Certificado&nbsp;</span>
+          <span class="hover-text1" aria-hidden="true">&nbsp;Certificado&nbsp;</span>
+      </span>
+      </div>
+
+      <div id="carouselcertificado" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="9" aria-label="Slide 10"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="10" aria-label="Slide 11"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="11" aria-label="Slide 12"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="12" aria-label="Slide 13"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="17" aria-label="Slide 17"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="18" aria-label="Slide 18"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carrocel-certificados carousel-item active">
+            <img src="./src/assets/img/Certificados/html-css-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>HTML5 e CSS3</h3>
+                  <p >Carga horária: 89 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/js-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>JavaScript</h3>
+                <p >Carga horária: 77 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/bootstrap-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>bootstrap 4</h3>
+                <p >Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/Banco-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Banco de Dados</h3>
+                <p >Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/git-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >GIT/GITHUB</h3>
+                  <p >Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados//docker-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Docker</h3>
+                  <p >Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/TailwindCSS-b7.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >TailwindCSS</h3>
+                <p >Carga horária: 20 Horas <br> Plataforma: B7WEB <br>Professor: Bonieky Lacerda <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/git-dio.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >GIT | GITHUB</h3>
+                  <p >Carga horária: 5 Horas <br> Plataforma: Dio <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/html-dio.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >HTML5 e CSS3</h3>
+                  <p >Carga horária: 06 Horas <br> Plataforma: Dio<br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/insta-dio.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Projeto instagram</h3>
+                <p >Carga horária: 02 Horas <br> Plataforma: dio <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/js-dio.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >JavaScript</h3>
+                  <p >Carga horária: 02 Horas <br> Plataforma: Dio <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/logica-dio.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Logica de Programação</h3>
+                  <p >Carga horária: 04 Horas <br> Plataforma: Dio<br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/netflix-dio.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Projeto Netflix</h3>
+                <p >Carga horária: 05 Horas <br> Plataforma: Dio<br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/sql-udemy.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >SQL</h3>
+                 <p >Carga horária: 17 Horas <br> Plataforma: Udemy <br>Professor: Matheus Battisti <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/jsnode-udemy.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >JavaScript | NodeJs</h3>
+               <p >Carga horária: 24 Horas <br> Plataforma: Udemy <br>Professor: Matheus Battisti<br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/figman-udemy.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Figma - UX UI Design</h3>
+               <p >Carga horária: 06 Horas <br> Plataforma: Udemy <br>Professor: Andre Bernardes<br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/desenvolvimento-web-udemy.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Desenvolvimento Web</h3>
+                <p >Carga horária: 115 Horas <br> Plataforma: Udemy <br>Professores: Jorge SantAna | Jamilton Damasceno <br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/desafio-js-udemy.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Desafio em JavaScript</h3>
+              <p >Carga horária: 04 Horas <br> Plataforma: Udemy <br>Professor: Matheus Battisti<br></p>
+            </div>
+          </div>
+
+          <div class="carousel-item carrocel-certificados">
+            <img src="./src/assets/img/Certificados/inkscape-udemy.jpg" class="d-block w-100 " alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h3 >Inkscape - UX UI Design</h3>
+                <p >Carga horária: 03 Horas <br> Plataforma: Udemy <br>Professor: Rafael Maia<br></p>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselcertificado" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselcertificado" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
    </main>
 
     <footer class="d-flex flex-column ">
@@ -892,3 +870,4 @@
    <script src="./src/assets/js/index.js"></script>
 </body>
 </html>
+
