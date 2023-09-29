@@ -224,10 +224,100 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 }
 
 #skill{
-    height: 300px;
+    height: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.icones-skill .col{
+    /* background-color: red; */
+    height: auto;
+}
+.icones-skill svg{
+    /* background-color: blue; */
+    width: 40px;
+    height: 40px;
+    padding: 5px;
 }
 
-.imagens-skill {
+.icones-skill svg:hover{
+    cursor: pointer;
+}
+
+.html5:hover{
+    color: #e95934;
+    transition: 0.3s ease-in-out;
+}
+
+.css3:hover{
+    color: #1672ad;
+    transition: 0.3s ease-in-out;
+}
+
+.javascript:hover{
+    color: #db9a45;
+    transition: 0.3s ease-in-out;
+}
+
+.bootstrap:hover{
+    color: #8412fb;
+    transition: 0.3s ease-in-out;
+}
+
+.tailwindcss:hover{
+    color: #07B0CE;
+    transition: 0.3s ease-in-out;
+}
+
+.git:hover{
+    color: #f05033;
+    transition: 0.3s ease-in-out;
+}
+
+.mysql:hover{
+    color: #1787ad;
+    transition: 0.3s ease-in-out;
+}
+
+.linux:hover{
+    color: #1787ad;
+    transition: 0.3s ease-in-out;
+}
+
+.windows:hover{
+    color: #00adef;
+    transition: 0.3s ease-in-out;
+}
+
+.terminal:hover{
+    color: #2bff00;
+    transition: 0.3s ease-in-out;
+}
+
+.react:hover{
+    color: #5ED3F3;
+    transition: 0.3s ease-in-out;
+}
+
+.figma:hover{
+    color: #EA4C1D;
+    transition: 0.3s ease-in-out;
+}
+
+.docker:hover{
+    color: #1C60E6;
+    transition: 0.3s ease-in-out;
+}
+
+.vscode:hover{
+    color: #4CABEC;
+    transition: 0.3s ease-in-out;
+}
+
+.jetbrains:hover{
+    color: #FF2E75;
+    transition: 0.3s ease-in-out;
+}
+/* .imagens-skill {
     margin-top: 40px;
 }
 .imagens-skill i{
@@ -235,54 +325,13 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     
 }
 
-.imagens-skill i:hover{
-    cursor: pointer;
-}
+5ED3F3
 
-.fa-html5:hover{
-    color: #e95934;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-css3-alt:hover{
-    color: #1672ad;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-js:hover{
-    color: #db9a45;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-bootstrap:hover{
-    color: #8412fb;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-git-alt:hover{
-    color: #f05033;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-database:hover{
-    color: #1787ad;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-linux:hover{
-    color: #000000;
-    transition: 0.3s ease-in-out;
-}
-
-.fa-windows:hover{
-    color: #00adef;
-    transition: 0.3s ease-in-out;
-}
 
 .fa-terminal:hover{
     color: #2bff00;
     transition: 0.3s ease-in-out;
-}
+} */
 
 #peojetos{
     height: 1600px;
