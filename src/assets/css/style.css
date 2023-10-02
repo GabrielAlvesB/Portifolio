@@ -127,8 +127,11 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
 .teste{
     width: 100px;
 }
-.resumo-logos i{
-    margin-right: 10px;
+
+
+.icons-novos svg {
+    width: 25px;
+    height: 25px;
 }
 
 .resumo{
