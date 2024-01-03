@@ -324,7 +324,7 @@ background: radial-gradient(circle, rgba(116,0,184,1) 39%, rgba(38,14,105,1) 54%
     font-family: '300';
 }
 .projeto1,.projeto2, .projeto3{
-    height: 500px;
+    height: 500px !important;
 }
 
 .git-projetos{
@@ -393,6 +393,8 @@ footer{
 .projetoPlus{
     background: url(../img/Programador.png) no-repeat center center;
     background-size:50%;
+    /* background-color: red; */
+
 }
 .Fundo-projetos{
     width: 100%;
@@ -591,6 +593,33 @@ footer{
     .projeto1,.projeto2, .projeto3{
         height: auto !important;
     }
+    .title p{
+        font-size: 18px !important ;
+    }
+}
+@media (min-width: 577px) and (max-width: 900px){
+    
+    .imagem-desktop{
+        display: none !important;
+    }
+    .imagem-tablet{
+        display: block;
+    }
+    .projeto1,.projeto2, .projeto3{
+        height: auto !important;
+    }
+    .title p{
+        font-size: 12px !important ;
+    }
+    .projetoPlus{
+        margin-top: 600px;
+    }
+}
+@media (min-width: 901px) {
+    .imagem-tablet{
+        display: none !important;
+    }
+    
 }
 
 
@@ -599,6 +628,7 @@ footer{
     border-radius: 10px;
     width: 50%;
 } */
+
 
 
 .titulo-projetos h1,.modal-header  h1{
@@ -652,4 +682,8 @@ footer{
 .carousel-caption{
     background-color: #000000;
     opacity: 0.7;
+}
+
+.title p{
+    font-size: 17px ;
 }
